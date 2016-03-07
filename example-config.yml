@@ -1,0 +1,25 @@
+powershop:
+  test:
+    access_token_url:  https://stable.test.powershop.com.au/external_api/oauth/access_token
+    authorize_url:     https://stable.test.powershop.com.au/external_api/oauth/authorize
+    base_url:          https://stable.test.powershop.com.au/external_api/v2/
+    consumer_key:          # Optional (Not Recommended) Powershop API Key Id in plaintext 
+    consumer_secret:       # Optional (Not Recommended) Powershop API Key secret
+    customer_email:        # Optional (Not Recommended), use plaintext email
+    customer_password:     # Optional (Not Recommended), use plaintext password
+    kms_consumer_key:      # KMS Ciphertext of Powershop API Key Id
+    kms_consumer_secret:   # KMS Ciphertext of Powershop API Key secret
+    kms_customer_email:    # KMS Ciphertext of customer email
+    kms_customer_password: # KMS Ciphertext of customer password
+    oauth_callback:    https://stable.test.powershop.com.au/
+    request_token_url: https://stable.test.powershop.com.au/external_api/oauth/request_token
+  production:
+    kms_consumer_key:      
+    kms_consumer_secret:   
+    kms_customer_email: 
+    kms_customer_password:
+    request_token_url: https://secure.powershop.com.au/external_api/oauth/request_token
+    access_token_url:  https://secure.powershop.com.au/external_api/oauth/access_token
+    authorize_url:     https://secure.powershop.com.au/external_api/oauth/authorize
+    base_url:          https://secure.powershop.com.au/external_api/v2/
+    oauth_callback:    https://secure.powershop.com.au/
